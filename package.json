@@ -1,0 +1,28 @@
+{
+  "name": "twitch-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jlundgren77/twitchApp.git"
+  },
+  "author": "Jeff Lundgren",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jlundgren77/twitchApp/issues"
+  },
+  "homepage": "https://github.com/jlundgren77/twitchApp#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-sass": "^2.2.0",
+    "gulp-sourcemaps": "^1.6.0"
+  },
+  "dependencies": {
+    "bourbon-neat": "^1.7.4"
+  }
+}

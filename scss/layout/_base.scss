@@ -1,0 +1,43 @@
+
+h1 {
+	text-align: center;
+}
+
+section {
+	width: 100%;
+	margin: 0 auto;
+}
+
+.row {
+	@include outer-container();
+}
+
+.icon {
+	@include span-columns(2);
+}
+
+.userLink {
+	@include span-columns(3);
+}
+
+.stream {
+	@include span-columns(7);
+
+}
+
+
+#content {
+	@include outer-container();
+
+    padding: 10px;
+}
+
+
+#filter-box {
+	@include span-columns(2);
+}
+
+.container {
+	@include span-columns(10);
+	text-align: center;
+}

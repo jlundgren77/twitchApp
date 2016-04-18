@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Twitch App</title>
+	<link rel="stylesheet" href="css/application.css">
+	<link href='https://fonts.googleapis.com/css?family=Unica+One|Galindo|Ranchers|Fascinate' rel='stylesheet' type='text/css'>
+</head>
+<body>
+	<h1 id="twitch-logo">Twitch Streams</h1>
+	<section id="content">
+		<div id="filter-box">
+			Online <input type="radio" name="filter" value="online"> <br>
+			Offline <input type="radio" name="filter" value="offline"> <br>
+			All <input type="radio" name="filter" value="all" checked="checked"><br>
+			<input type="text" id="search-users" name="search-users" placeholder="add user">
+			<input type="submit" value="find" id="addUser">
+		</div>
+		<div class="container">
+			
+		</div>	
+	</section>
+
+</body>
+	<script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
+
+	<script src="js/main.js"></script>
+</html>
+
+<!-- Templates -->
+<div class="template">
+	<div class="row users">
+		<div class="icon"><img src="" class="logo"></div>
+		
+		<div><a href="" class="userLink" target="_blank"></a></div>
+		<div class="stream"><a></a></div>
+		
+	</div>
+</div>

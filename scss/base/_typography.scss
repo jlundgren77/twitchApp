@@ -1,0 +1,17 @@
+body {
+	font-family: $lucida-grande;
+
+	a {
+		text-decoration: none;
+		border-bottom: 1px solid rgba(192, 192, 192, 0);
+		@include transition(border 500ms ease);
+		&:hover {
+			@include transition(all 0.3s ease-in-out);
+			color: #000033;
+			border-bottom: 1px solid rgba(192, 192, 192, 1)
+		}
+	}
+}
+#twitch-logo {
+	font-family: 'Galindo', cursive;
+}
